@@ -1,11 +1,13 @@
 //CON CSS, SIN IF, SIN FUNCIÓN:
 const imagen = prompt("Ingrese un tamaño de imagen: chica, mediana, grande");
 const elemento = document.querySelector(".img");
-//elemento.classList.remove("img");
+//elemento.classList.remove("img"); Remuevo está clase, en caso de ya haber usado 
+//para definir estilos en css, para que no se me pisen los estilos de las clases
+//que quieran modificar a un mismo elemento.
 
 elemento.classList.add(imagen);
 /*
-//SIN CSS + If:
+//SIN CSS, CON If:
 const imgSize = prompt("Ingrese el tamaño de imagen que desee: "chica", "mediana" o "grande".);
 const elemento = document.querySelector(".img");
 const imagenChica = `width:250px;`;
@@ -24,7 +26,7 @@ if (imgSize == "chica") {
 */
 
 /*
-//CON CSS y con If:
+//CON CSS y CON If:
 const imgSize = prompt("Ingrese un número del 1 al 3, según el tamaño de imagen que desee: 1) chico, 2) mediano, 3) grande.");
 const elemento = document.querySelector(".img");
 let imagen = "";
