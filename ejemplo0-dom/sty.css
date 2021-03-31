@@ -1,0 +1,16 @@
+.rojo {
+    color: red;
+    text-align: right;
+    background-color: honeydew;
+    border-radius: 50px;
+    border: 2px solid pink;
+    padding: 10px;
+
+}
+.verde {
+    color: green;
+    font-size: 60px;
+}
+.center {
+    text-align: center;
+}
