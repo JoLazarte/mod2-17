@@ -30,6 +30,7 @@ if (palabraBuscada == "vida") {
     palUno[i].style = `color:red;font-weight:bold;`;
     //palUno[i].style.color = "red";
     }
+    
 } else if (palabraBuscada == "palabras") {
     let i;
     for (i = 0; i < palDos.length; i++) {
