@@ -59,5 +59,7 @@ if (temperaturaIngresada < 0) {
   color = 'rojo';
 }
 
-temperaturaDom.classList.add(color);
-temperaturaDom.textContent = `Temperatura: ${temperaturaIngresada} grados`;
+//temperaturaDom.classList.add(color); 
+temperaturaDom.className = color;
+temperaturaDom.textContent = 
+`Temperatura: ${temperaturaIngresada} grados`;

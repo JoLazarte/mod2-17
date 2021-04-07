@@ -32,12 +32,12 @@ const urlArticulo = prompt("Ingrese la url de página web");
     titulo.className = "titulo-card";
 
     const imagen = document.querySelector("#imagenIngresada");
-    imagen.src = `${urlImagen}`;
+    imagen.src = urlImagen;
     const borde_imagen = `border:1px solid rgb(233, 204, 38);`;
     imagen.style = borde_imagen;
 
     const link = document.querySelector("#linkIngresado");
-    link.href = `${urlArticulo}`;
+    link.href = urlArticulo;
     link.textContent = "Leer más";
     link.className = "pagina-web";
 
